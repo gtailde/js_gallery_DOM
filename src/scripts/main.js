@@ -1,5 +1,5 @@
-const galeryList = document.querySelector('.gallery__list');
-const listItems = galeryList.querySelectorAll('.list-item');
+const galleryList = document.querySelector('.gallery__list');
+const listItems = galleryList.querySelectorAll('.list-item');
 
 listItems.forEach((item) => {
   item.addEventListener('click', (e) => {
